@@ -6,6 +6,7 @@ Ankara, Turkiye<br>
 +90 536 489 53 58<br>
 george.seletski@gmail.com<br>
 [LinkedIn](https://www.linkedin.com/in/george-seletski/) <br>
+[Personal website](https://george-seletski.github.io/)<br>
 # Summary
 Hardworking and reliable python developer focused on going above and beyond to support team and serve customers. <p>Motivated to learn and grow as Python Developer.</p>
 # Experience

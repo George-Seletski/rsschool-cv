@@ -1,7 +1,5 @@
 # George Seletski
 
-<img src="https://avatars.githubusercontent.com/u/67556867?s=40&v=4" alt="George Seletski" style="height: 150px; width:120px;"/>
-
 Ankara, Turkiye<br>
 +90 536 489 53 58<br>
 george.seletski@gmail.com<br>

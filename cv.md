@@ -1,9 +1,12 @@
 # George Seletski 
+
+Ankara, Turkiye<br>
++90 536 489 53 58<br>
 george.seletski@gmail.com<br>
 [LinkedIn](https://www.linkedin.com/in/george-seletski/) <br>
-## Summary
+# Summary
 Hardworking and reliable python developer focused on going above and beyond to support team and serve customers. <p>Motivated to learn and grow as Python Developer.</p>
-## Experience
+# Experience
 **MTS Group** <br> _(Sep 2021 - Dec 2021)_ <br>
 - Analysed data of cell towers for the mobile networks and
 clustered all information chunks and analyse the capacity of regional towers. <br/>
@@ -14,9 +17,32 @@ _(September 2018 - May 2019)_ <br>
 - My coursework was the development of a Telegram bot for selling tickets to a local show.<br/>
 _**Technologies:**_ Python, REST API.
 
+# Skills
+<ul>
+<li>Web development on Python (Django Framework).</li>
+<li>Good with data structures and algorithms. Solid understanding of OOP principles: <em>Encapsulation, Inheritance, Abstraction, Polymorphism.</em></li>
+<li>Have experience with such databases as: <em>MySql, SQLite.</em></li>
+<li>HTML5, CSS3.</li><br>
+</ul>
 
+# Code
+```
+# return masked string
 
-## Education
+def maskify(cc):
+    if len(cc) <= 4:
+     return cc
+    else:
+      new = list(cc)
+      
+      for i in range(len(cc)-4):
+        new[i] = "#"
+      
+      return ''.join(new)
+```
+<br>
+
+# Education
 **Bachelour degree:** Informatics & Applied Mathematics (system programmer) <br>
 ***Bauman Moscow State Technical University*** 
 [6th top Russian university rating](https://www.universityrankings.ch/results&ranking=QS&region=World&year=2021&q=Russia)<br>
@@ -37,19 +63,14 @@ _**Technologies:**_ Python, REST API.
 - Basics of usage API. <br/>
  _**Technologies:**_ Python, BotFather, Weather forecast API, Git.
 
+<br>
 
 
-## Skills
-<ul>
-<li>My primary experince is development web application on Python(Django Framework).</li>
-<li>Can write code in C++, R small experience with C#. </li>
-<li>Good with data structures and algorithms. Solid understanding of OOP principles: <br><em>Encapsulation, Inheritance, Abstraction, Polymorphism.</em>
-</li>
-<li>Have experience with: MySql, SQLite.</li>
-<li>HTML/CSS.</li>
 
-**Languages:** Russian (<em>Native</em>), English (<em>fluent</em>).</li>
-
+# Languages
+<li>Russian (<em>Native</em>)</li> 
+<li>English (<em>fluent</em>)</li>
+<li>Slovak (<em>basic</em>)</li>
 
 
 

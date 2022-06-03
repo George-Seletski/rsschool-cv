@@ -1,6 +1,6 @@
 # George Seletski
 
-<img src="https://github.com/George-Seletski/rsschool-cv/blob/gh-pages/F9CA8B35-1CB2-4A9B-853A-9A75905B54B5.jpg" alt="George Seletski" style="height: 100px; width:100px;"/>
+<img src="https://github.com/George-Seletski/rsschool-cv/blob/gh-pages/F9CA8B35-1CB2-4A9B-853A-9A75905B54B5.jpg" alt="George Seletski" style="height: 100px; width:200px;"/>
 
 Ankara, Turkiye<br>
 +90 536 489 53 58<br>

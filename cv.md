@@ -1,5 +1,7 @@
 # George Seletski 
 
+![](https://drive.google.com/file/d/1reCOmHt5393fBN7DIvyCGUDtMooxrI4A/view?usp=sharing)
+
 Ankara, Turkiye<br>
 +90 536 489 53 58<br>
 george.seletski@gmail.com<br>

@@ -1,1 +1,1 @@
-https://George-Seletski.github.io/rsschool-cv/cv
+https://George-Seletski.github.io/rsschool-cv/

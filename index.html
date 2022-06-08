@@ -4,52 +4,46 @@
 <head>
     <title>CV</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!--CSS-STYLES-->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <!---FONTS-->
     <link
         href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
-        rel="stylesheet" />
-
+        rel="stylesheet">
+<!--ICONS-->
+<script src="https://kit.fontawesome.com/e1976575d3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="wrapper">
         <header>
             <h1 class="main-head">George Seletski</h1>
-            <div class="divider"></div>
+            <img class="avatar" src="img/IMG_20211019_182208.jpg" alt="">
         </header>
-        <section>
-            <div class="cv-item">
+        <main>
+            <div class="cv__item">
+                <div class="contacts">
                 <p>Ankara, Turkiye</p>
                 <p>+90 536 489 53 58</p>
                 <p><a href="mailto:george.seletski@gmail.com">george.seletski@gmail.com</a></p>
                 <p><a href="https://www.linkedin.com/in/george-seletski/">LinkedIn</a>
                 </p>
                 <p><a href="https://george-seletski.github.io/">Personal website</a></p>
+            </div>
                 <div class="description">
                     <p>Hardworking and reliable python developer focused on going above and
                         beyond to support team and serve customers.
                         Motivated to learn and grow as Python Developer.</p>
                 </div>
+                
             </div>
 
-            <div class="cv-item">
-                <h1>Summary</h1>
-                <div class="divider"></div>
-                <div class="description">
-                    <p>Hardworking and reliable python developer focused on going above and
-                        beyond to support team and serve customers.
-                        Motivated to learn and grow as Python Developer.</p>
-                </div>
-            </div>
-            <div class="cv-item">
+            <div class="cv__item">
                 <h1>Experience</h1>
                 <div class="divider"></div>
-                <div class="description item">
-                    <h3>MTS GROUP</h3>
+                <div class="description">
+                    <h2>MTS GROUP</h2>
                     <em>(Sep 2021 - Dec 2021)</em>
                     <ul>
                         <li>Analysed data of cell towers for the mobile networks and clustered all information chunks
@@ -60,7 +54,7 @@
                     </div>
                 </div>
                 <div class="description item">
-                    <h3>Luxoft IT School</h3>
+                    <h2>Luxoft IT School</h2>
                     <em>(Sep 2018 - Dec 2019)</em>
                     <ul>
                         <li>My coursework was the development of a Telegram bot for selling tickets to a local show.
@@ -71,20 +65,41 @@
                     </div>
                 </div>
             </div>
-            <div class="cv-item">
+            <div class="cv__item">
                 <h1>Skills</h1>
                 <div class="divider"></div>
                 <div class="description item">
                     <ul>
-                        <li>Web development on <span>Python (Django Framework)</span>.</li>
-                        <li>Solid understanding of OOP principles:<span>Encapsulation, Inheritance, Abstraction, Polymorphism</span>.</li>
-                        <li>Have experience with such databases as:<span>MySql, SQLite</span>.</li>
-                        <li>Good knowledge of<span> HTML5, CSS3</span>.</li>
+                        <li><span>Python (Django Framework)</span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li><span>REST API</span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li><span>MySql, SQLite</span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li><span>HTML5, CSS3</span>
+                        
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i></li>
                     </ul>
                     
                 </div>
             </div>
-            <div class="cv-item">
+            <div class="cv__item">
                 <h1>Code</h1>
                 <div class="divider"></div>
                 <div class="code-block">
@@ -101,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cv-item">
+            <div class="cv__item">
                 <h1>Education</h1>
                 <div class="divider"></div>
                 <div class="description item">
@@ -137,12 +152,12 @@
                     </div>
                 </div>
             </div>
-            <div class="cv-item">
+            <div class="cv__item">
                 <h1>Languages</h1>
                 <div class="divider"></div>
                 <div class="description item">
                     <ul>
-                        <li>Russian (Native).</li>
+                        <li>Russian (native).</li>
                         <li>English (fluent).</li>
                         <li>Slovak (basic).</li>
                     </ul>
@@ -150,8 +165,14 @@
                 </div>
             </div>
         </section>
-
-        <hr>
+        <footer>
+            
+            <div class="links">
+               <a href="https://github.com/George-Seletski"><i class="fa-brands fa-github"></i></a> 
+               <a href=""><img class="rsschool__icon"src="img/rs-logo.svg" alt=""></a> 
+               <a href="https://github.com/George-Seletski"><i class="fa-brands fa-youtube"></i></a> 
+            </div>
+        </footer>
     </div>
 </body>
 

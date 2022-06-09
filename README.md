@@ -1,1 +1,1 @@
-# rsschool-cv
+https://George-Seletski.github.io/rsschool-cv/

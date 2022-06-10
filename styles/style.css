@@ -53,10 +53,13 @@ h1{
 }
 h2{
    
-    font-size: 100%;
+    font-weight: 400;
+    font-size: 300%;
     font-family: Roboto bold;
 }
-
+h3{
+    font-family: Roboto bold;
+}
 em{
     font-size: 60%;
     margin-top: 0.3em;

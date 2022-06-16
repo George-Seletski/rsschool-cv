@@ -19,18 +19,20 @@
     <div class="wrapper">
         <header>
             <h1 class="main-head">George Seletski</h1>
-            <img class="avatar" src="img/IMG_20211019_182208.jpg" alt="">
+            <img class="avatar" src="img/IMG_20211019_182208.jpg" alt="George-Seletski">
         </header>
         <main>
             <div class="cv__item">
                 <div class="contacts">
-                    <p>Ankara, Turkiye</p>
-                    <p>+90 536 489 53 58</p>
-                    <p><a href="mailto:george.seletski@gmail.com">george.seletski@gmail.com</a></p>
-                    <p><a href="https://www.linkedin.com/in/george-seletski/">LinkedIn</a>
-                    </p>
-                    <p><a href="https://george-seletski.github.io/">Personal website</a></p>
+                    <ul>
+                    <li>Ankara, Turkiye</li>
+                    <li>+90 536 489 53 58</li>
+                    <li><a href="mailto:george.seletski@gmail.com">george.seletski@gmail.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/george-seletski/">LinkedIn</a>
+                    </li>
+                    <li><a href="https://george-seletski.github.io/">Personal website</a></li>
                 </div>
+            </ul>
                 <div class="description">
                     <p>Hardworking and reliable python developer focused on going above and
                         beyond to support team and serve customers.
@@ -103,6 +105,22 @@
                 <div class="divider"></div>
                 <div class="code-block">
                     <div class="text-programm">
+
+                        <pre>
+                            <code>
+                                # return masked string
+
+                                def maskify(cc):
+                                    if len(cc) == 4:
+                                        return cc
+                                    else:
+                                        new = list(cc)
+                                        for i in range(len(cc)-4):
+                                            new[i] = "#"
+                                            return ''.join(new)
+                            </code>
+                          </pre>
+                          <!--
                         # return masked string <br><br>
                         def maskify(cc):<br>
                         <span class="tab2">if len(cc) == 4:</span> <br>
@@ -112,7 +130,7 @@
                                 <span class="tab4">for i in range(len(cc)-4):</span><br>
                                 <span class="tab6">new[i] = "#" </span> <br>
                                 <span class="tab4">return ''.join(new)</span><br>
-
+-->
                     </div>
                 </div>
             </div>
@@ -179,7 +197,7 @@
             </nav>
             </div>
             <div class="copyright">
-            <span><i class="fa-regular fa-copyright"></i> 2022 by George Seletski</span>
+            <span><a href="https://www.linkedin.com/in/george-seletski/"><i class="fa-regular fa-copyright"></i> 2022 by George Seletski</a></span>
         </div>
         </footer>
     </div>

@@ -19,20 +19,18 @@
     <div class="wrapper">
         <header>
             <h1 class="main-head">George Seletski</h1>
-            <img class="avatar" src="img/IMG_20211019_182208.jpg" alt="George-Seletski">
+            <img class="avatar" src="img/IMG_20211019_182208.jpg" alt="George Seletski Photo">
         </header>
         <main>
             <div class="cv__item">
                 <div class="contacts">
-                    <ul>
-                    <li>Ankara, Turkiye</li>
-                    <li>+90 536 489 53 58</li>
-                    <li><a href="mailto:george.seletski@gmail.com">george.seletski@gmail.com</a></li>
-                    <li><a href="https://www.linkedin.com/in/george-seletski/">LinkedIn</a>
-                    </li>
-                    <li><a href="https://george-seletski.github.io/">Personal website</a></li>
+                    <p>Ankara, Turkiye</p>
+                    <p>+90 536 489 53 58</p>
+                    <p><a href="mailto:george.seletski@gmail.com">george.seletski@gmail.com</a></p>
+                    <p><a href="https://www.linkedin.com/in/george-seletski/">LinkedIn</a>
+                    </p>
+                    <p><a href="https://george-seletski.github.io/">Personal website</a></p>
                 </div>
-            </ul>
                 <div class="description">
                     <p>Hardworking and reliable python developer focused on going above and
                         beyond to support team and serve customers.
@@ -42,10 +40,10 @@
             </div>
 
             <div class="cv__item">
-                <h2>Experience</h2>
+                <h1>Experience</h1>
                 <div class="divider"></div>
                 <div class="description">
-                    <h3>MTS GROUP</h3>
+                    <h2>MTS GROUP</h2>
                     <em>(Sep 2021 - Dec 2021)</em>
                     <ul>
                         <li>Analysed data of cell towers for the mobile networks and clustered all information chunks
@@ -56,7 +54,7 @@
                     </div>
                 </div>
                 <div class="description item">
-                    <h3>Luxoft IT School</h3>
+                    <h2>Luxoft IT School</h2>
                     <em>(Sep 2018 - Dec 2019)</em>
                     <ul>
                         <li>My coursework was the development of a Telegram bot for selling tickets to a local show.
@@ -68,7 +66,7 @@
                 </div>
             </div>
             <div class="cv__item">
-                <h2>Skills</h2>
+                <h1>Skills</h1>
                 <div class="divider"></div>
                 <div class="description item">
                     <ul>
@@ -96,46 +94,36 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i></li>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="cv__item">
-                <h2>Code</h2>
+                <h1>Code</h1>
                 <div class="divider"></div>
                 <div class="code-block">
                     <div class="text-programm">
-
+                        <code>
                         <pre>
-                            <code>
-                                # return masked string
 
-                                def maskify(cc):
-                                    if len(cc) == 4:
-                                        return cc
-                                    else:
-                                        new = list(cc)
-                                        for i in range(len(cc)-4):
-                                            new[i] = "#"
-                                            return ''.join(new)
-                            </code>
-                          </pre>
-                          <!--
-                        # return masked string <br><br>
-                        def maskify(cc):<br>
-                        <span class="tab2">if len(cc) == 4:</span> <br>
-                                <span class="tab4">return cc</span><br>
-                                <span class="tab2">else:</span><br>
-                                <span class="tab4">new = list(cc)</span><br>
-                                <span class="tab4">for i in range(len(cc)-4):</span><br>
-                                <span class="tab6">new[i] = "#" </span> <br>
-                                <span class="tab4">return ''.join(new)</span><br>
--->
+                        # return masked string
+
+                        def maskify(cc):
+                            if len(cc) != 4:
+                                return cc
+                            else:
+                                new = list(cc)
+                                for i in range(len(cc)-4):
+                                    new[i] = "#"
+                                return ''.join(new)
+                       </pre>
+                    </code>
                     </div>
                 </div>
             </div>
             <div class="cv__item">
-                <h2>Education</h2>
+                <h1>Education</h1>
                 <div class="divider"></div>
                 <div class="description item">
                     <ul>
@@ -144,7 +132,8 @@
                         <li><span>Bauman Moscow State Technical University</span>
                             <a
                                 href="https://www.universityrankings.ch/results&ranking=QS&region=World&year=2021&q=Russia">6th
-                                top Russian university rating</a></li>
+                                top Russian university rating</a>
+                        </li>
                     </ul>
                     <em>(Aug 2018 - Aug 2022)</em>
                     <ul style="margin-left:1em">
@@ -156,10 +145,12 @@
                     <div class="sub-description">
                         <p><em class="tech">Technologies:</em> SQL, C++, C#, Python, MY SQL, Sqlite.</p>
                     </div>
-
+                </div>
+                <div class="description item">
                     <ul>
                         <li><span>Luxoft IT School 2018:</span>
-                            <a href="https://ibs-training.ru/"> Luxoft IT Training Center</a></li>
+                            <a href="https://ibs-training.ru/"> Luxoft IT Training Center</a>
+                        </li>
                     </ul>
                     <em>(Sep 2018 - June 2019)</em>
                     <ul style="margin-left:1em">
@@ -175,7 +166,7 @@
             </div>
 
             <div class="cv__item">
-                <h2>Languages</h2>
+                <h1>Languages</h1>
                 <div class="divider"></div>
                 <div class="description item">
                     <ul>
@@ -188,17 +179,15 @@
             </div>
         </main>
         <footer>
-
+            <span class="copyright"><i class="fa-regular fa-copyright"></i> 2022 by George Seletski</span>
+            <span class="copyright"><a href="https://rs.school/js/"><img class="rsschool__icon" src="img/rs-logo.svg" alt="RS School"></a></span>
             <div class="links">
-              <nav>
-                <a href="https://github.com/George-Seletski"><i class="fa-brands fa-github"></i></a>
-                <a href=""><img class="rsschool__icon" src="img/rs-logo.svg" alt=""></a>
-                <a href="https://youtu.be/BQtzqMUamjQ"><i class="fa-brands fa-youtube"></i></a>
-            </nav>
+                <ul>
+                <li><a href="https://github.com/George-Seletski"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://github.com/George-Seletski"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/george-seletski/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
             </div>
-            <div class="copyright">
-            <span><a href="https://www.linkedin.com/in/george-seletski/"><i class="fa-regular fa-copyright"></i> 2022 by George Seletski</a></span>
-        </div>
         </footer>
     </div>
 </body>

@@ -53,13 +53,10 @@ h1{
 }
 h2{
    
-    font-weight: 400;
-    font-size: 300%;
+    font-size: 100%;
     font-family: Roboto bold;
 }
-h3{
-    font-family: Roboto bold;
-}
+
 em{
     font-size: 60%;
     margin-top: 0.3em;
@@ -104,7 +101,6 @@ p{
 }
 .contacts{
     text-align: center;
-    font-size: 150%;
 }
 .main-head{
     font-weight: 700;
@@ -112,15 +108,15 @@ p{
     padding-bottom: 1.2em;
 }
 .cv__item{
-    padding-right: 2.625em;
-    padding-left: 2.625em;
+    padding-right: 10.625em;
+    padding-left: 10.625em;
     margin-top: 0;
     margin-top: 1.5em;
 
 }
 
 .description{
-    margin-top: 1.4375em;
+    margin-top: 3.4375em;
     font-size: 200%;
    
 }
@@ -129,7 +125,7 @@ p{
     font-family: Roboto bold;
 }
 .sub-description{
-    margin-top: 0.625em;
+
     margin-bottom: 0.625em;
 }
 
@@ -141,7 +137,7 @@ p{
    
 }
 .text-programm{
-    line-height: 20px;
+    padding: 10px;
     font-size: 120%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -165,17 +161,32 @@ p{
 }
 .links{
     padding-top: 1.5em;
-    padding-bottom: 2.5em;
+    margin-bottom: 2.5em;
     text-align: center;
+   
     
 }
-.fa-github, .fa-youtube{
+
+.links>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    
+
+}
+.fa-github, .fa-youtube, .fa-linkedin{
     font-size: 400%;
+    letter-spacing: 1.5em;
+
 }
 .rsschool__icon{
     max-height: 50px;
-    padding-left: 5.5em;
-    padding-right: 5.5em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
     
 }
 .avatar{
@@ -189,6 +200,8 @@ p{
 
 .copyright{
     font-size: 220%;
-    padding-bottom: 2em;
-    text-align: center;
+    padding-right:  5.2em;
+    margin-left: 35%;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
 }
